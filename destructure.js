@@ -6,3 +6,7 @@ const Sanaa = {
 }
 const {name,age,friends,status} = Sanaa;
 console.log(name);
+
+const person = ["hero alom",{name: "sayed"},"bappa"];
+const [first,second,third] = person;
+console.log(first);
