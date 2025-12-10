@@ -6,5 +6,5 @@ const products =[
     { id: 5, name: 'ASUS', price: 100000 },
     { id: 6, name: 'Laptop', price: 68000 },
 ]
-const result = products.filter(product => product.price > 50000);
-console.log(result);
+
+products.forEach(product => console.log(product.name));
